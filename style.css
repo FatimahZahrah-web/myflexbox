@@ -1,0 +1,230 @@
+
+
+.parent-item {
+  display:flex;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+body {
+  background-color:hsl(220, 55%, 91%) ;
+  
+}
+.item-L {
+  background-color: hsl(241, 76%, 60%);
+  width: 250px;
+  height: 335px;
+  border-radius: 0.7cm;
+  justify-items: center;
+  position: absolute; 
+  padding: 3px;
+  z-index: 2;
+
+  
+
+} 
+
+ .circle {
+    background-color: hsla(249, 66%, 50%, 0.904);
+    border: 1.5cm;
+    height: 3.2cm;
+    width: 3.2cm;
+    border-radius: 3cm;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+  
+  } 
+  h1 {
+  color: white;  
+  text-align: center;
+  position: relative;
+  top: -10px;
+  }
+  h4 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    position: relative;
+    bottom: -25px;
+
+  }
+h2 {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    position:relative;
+    bottom: -10px;
+}
+p {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    color: rgba(245, 245, 245, 0.747);
+    font-size: small;
+
+}
+.test {
+  color: rgba(240, 255, 255, 0.849);
+  text-align:center;
+  font-size: smaller;
+  position: relative;
+  bottom: 18px;
+  
+}
+.item-R {
+    background-color: aliceblue;
+    width: 250px;
+    height:340px;
+    border-radius: 0.7cm;
+    padding-left: 40px;
+    position: relative;
+    left: 235px;   
+}   
+span {
+  color: rgb(146, 144, 144);
+  position: relative;
+  right: 2px;
+  
+}
+.summary {
+  color: black;
+  position: relative;
+  left: 27px;
+  bottom:-6px;
+  font-weight: bold;
+}
+    
+.reaction-image {
+  height:35px ;
+  width: 200px;
+  background-color: hsl(5, 55%, 96%);
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+  left:24px ;
+  top: 12px;
+}
+
+.reaction {
+  color:hsl(0, 100%, 67%) ;
+  position: relative;
+  top: -4px;
+  left: 10px;
+}
+.eig {
+  position: relative;
+  right: 2px;
+  color: black;
+}
+.memory-image {
+  height:35px ;
+  width: 200px; 
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:hsl(44, 58%, 93%);
+  margin-bottom: 15px;
+  position: relative;
+  left:24px ;
+  top: 12px;
+  
+
+}
+.nine { 
+  position: relative;
+  right: 2px;
+  color: black;
+}
+.Memory {
+  color:hsl(39, 88%, 62%) ;
+  position: relative;
+  top: -5px;
+  left: 10px; 
+}
+.verbal-image {
+  height:35px ;
+  width: 200px; 
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(166, 55%, 90%);
+  margin-bottom: 15px;
+  position: relative;
+  left:24px ;
+  top: 12px;
+  
+} 
+.seven {
+  color: rgb(7, 6, 6);
+  position: relative;
+  right: 2px;
+}
+.Verbal {
+  color:hsl(166, 82%, 30%); 
+  position: relative;
+  top: -5px;
+  left:9.5px ;
+}
+.visual-image {
+  height:35px ;
+  width: 200px;
+  border-radius: 7px;
+  display: flex;
+  justify-content:space-between;
+  background-color: hsl(269, 49%, 91%) ;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+  left:24px ;
+  top: 12px;
+}
+.six {
+  padding: right 5px;
+  color: rgb(12, 9, 9);
+  position: relative;
+  right: 2px;
+}
+ .visual {
+  color:hsl(234, 85%, 45%) ;
+  position: relative;
+  top: -5px;
+  left: 9.5px;
+ }
+ .continue {
+  height:35px ;
+  width: 187px;
+  border-radius: 7px;
+  display: flex;
+  background-color: rgb(34, 30, 30);
+  border-radius:18px ;
+  text-align: left;
+  position: relative;
+  top: 5px;
+  left: 32px;
+ }
+ .CT {
+  color: rgb(241, 248, 255);
+  position: relative;
+  left: 60px;
+  bottom: -6px; 
+  font-weight:bolder;
+ }
+ .attribution {
+  position: relative;
+  left: 540px;
+  bottom:100px;
+ }
+    
+
+
